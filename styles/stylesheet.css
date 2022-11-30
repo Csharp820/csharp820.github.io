@@ -1,6 +1,6 @@
 .abt-me {
 	color: white;
-	border: 4px white;
+	border: 4px white solid;
 	font-size: 40;
 	margin-left: 20%;
 	margin-right: 20%;
@@ -15,7 +15,7 @@
 	
 .links {
 	color: white;
-	border: 4px: white;
+	border: 4px: white solid;
 	font-size: 25;
 	padding: 15px;
 	text-align: center;
