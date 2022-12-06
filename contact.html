@@ -6,7 +6,6 @@
 	<link rel="stylesheet" href="styles/stylesheet.css">
 </head>
 <body bgcolor="black" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
-	
 	<table id="Table_01" width="1600" height="537" border="0" cellpadding="0" cellspacing="0" align="center">
 			<tr>
 				<td colspan="11">
@@ -66,7 +65,22 @@
 				</td>
 		</tr>
 	</table>
-	
-
+	<div class ="form">
+		<form>
+			<label for="name">Name</label>
+			<input type="text" id="name" name="name" placeholder="Your name">
+			
+			<label for="email">Email</label>
+			<input type="text" id="email" name="email" placeholder="Ex. JohnDoe@website.com">
+			
+			<label for"Reason">Reason for Contact</label>
+			<select id ="Reason" name="reas">
+				<option value="select">Select...</option>
+				<option value="comm">Commission</option>
+				<option value="other">Other</option>
+			</select>
+			<input type="submit" value="Submit">
+		</form>
+	</div>
 </body>
 </html>
