@@ -119,5 +119,24 @@ input[type=submit]:hover {
 }
 
 .works-table {
-	
+	background-color: red;
+	border: 5px white solid;
+	font-size: 25px;
+}
+
+.table-img {
+	border: 2px white solid;
+	display: inline-block;
+	width: 50%;
+}
+
+.table-desc {
+	color: white;
+	display: inline-block;
+	padding: 15px;
+	position: relative;
+	bottom: 50px;
+	left: 100px;
+	font-size: 20px;
+	width: 30%;
 }
