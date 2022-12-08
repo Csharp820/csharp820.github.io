@@ -140,3 +140,16 @@ input[type=submit]:hover {
 	font-size: 20px;
 	width: 30%;
 }
+
+.active-pg{
+	filter: invert(100%);
+}
+
+.navbar{
+}
+
+@media only screen and (orientation:portrait) {
+	.navbar{
+		width:50%;
+	}
+}
