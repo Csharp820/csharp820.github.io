@@ -152,6 +152,16 @@ input[type=submit]:hover {
 	display:none;
 }
 
+.anchor{
+	background-color: red;
+	border: 2px solid white;
+	font-size: 25px;
+	margin: 35%;
+	height: 10%;
+	text-align: center;
+	width = 20%;
+}
+
 @media only screen and (orientation:portrait) {
 	.navbar{
 		display: none;
@@ -212,4 +222,3 @@ input[type=submit]:hover {
 		font-size: 20px;
 		width: 100%;
 	}
-}
